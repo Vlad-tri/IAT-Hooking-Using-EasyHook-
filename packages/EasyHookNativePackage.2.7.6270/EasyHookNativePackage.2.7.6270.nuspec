@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>EasyHookNativePackage</id>
+    <version>2.7.6270</version>
+    <title>EasyHook Native Package</title>
+    <authors>EasyHook</authors>
+    <owners>EasyHook</owners>
+    <licenseUrl>https://github.com/EasyHook/EasyHook#license</licenseUrl>
+    <projectUrl>https://easyhook.github.io/</projectUrl>
+    <iconUrl>http://i3.codeplex.com/Download?ProjectName=easyhook&amp;DownloadId=186762</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This project supports extending (hooking) unmanaged code (APIs) on 32- or 64-bit
+Windows XP SP2, Windows Vista x64, Windows Server 2008 x64, Windows 7, Windows 8.1, and Windows 10.</description>
+    <summary>The reinvention of Windows API Hooking</summary>
+    <releaseNotes>2.7.6035.0:
+1. MAX_HOOK_COUNT increased from 128 to 1024
+2. CreateAndInject fixed to support injection across sessions (providing appropriate privileges).
+3. RhCreateStealthRemoteThread fixed for 32-bit (still fairly experimental)  (#91)
+4. 64-bit driver now preserves RAX register for trampoline (#78)
+5. Native NuGet package now includes support for VS2015</releaseNotes>
+    <copyright>Copyright © 2009 Christoph Husse &amp; Copyright © 2012 Justin Stenning. All rights reserved.</copyright>
+    <tags>api hook hooking easyhook native nativepackage</tags>
+    <dependencies>
+      <dependency id="EasyHookNativePackage.redist" version="2.7.6270" />
+    </dependencies>
+  </metadata>
+</package>

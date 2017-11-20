@@ -1,0 +1,19 @@
+﻿Build started 11/21/2017 1:56:02 AM.
+     1>Project "c:\Users\Vlad\documents\visual studio 2013\Projects\IAT Hooking x86_64\Hook\Hook.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"c:\Users\Vlad\documents\visual studio 2013\Projects\IAT Hooking x86_64\packages\EasyHookNativePackage.2.7.6270\build\native\../..//build/native/include/" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Hook.cpp
+         Hook.cpp
+     1>c:\Users\Vlad\documents\visual studio 2013\Projects\IAT Hooking x86_64\packages\EasyHookNativePackage.2.7.6270\build\native\include\easyhook.h(39): warning C4005: 'NTDDI_VERSION' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\sdkddkver.h(206) : see previous definition of 'NTDDI_VERSION'
+     1>c:\Users\Vlad\documents\visual studio 2013\Projects\IAT Hooking x86_64\packages\EasyHookNativePackage.2.7.6270\build\native\include\easyhook.h(40): warning C4005: '_WIN32_WINNT' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\sdkddkver.h(200) : see previous definition of '_WIN32_WINNT'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\vlad\documents\visual studio 2013\Projects\IAT Hooking x86_64\x64\Debug\Hook.dll" /INCREMENTAL /NOLOGO "c:\Users\Vlad\documents\visual studio 2013\Projects\IAT Hooking x86_64\packages\EasyHookNativePackage.2.7.6270\build\native\../..//build/native/lib/x64\v120\Debug\EasyHook64.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\vlad\documents\visual studio 2013\Projects\IAT Hooking x86_64\x64\Debug\Hook.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\vlad\documents\visual studio 2013\Projects\IAT Hooking x86_64\x64\Debug\Hook.lib" /MACHINE:X64 /DLL x64\Debug\dllmain.obj
+         x64\Debug\Hook.obj
+            Creating library c:\users\vlad\documents\visual studio 2013\Projects\IAT Hooking x86_64\x64\Debug\Hook.lib and object c:\users\vlad\documents\visual studio 2013\Projects\IAT Hooking x86_64\x64\Debug\Hook.exp
+         Hook.vcxproj -> c:\users\vlad\documents\visual studio 2013\Projects\IAT Hooking x86_64\x64\Debug\Hook.dll
+     1>Done Building Project "c:\Users\Vlad\documents\visual studio 2013\Projects\IAT Hooking x86_64\Hook\Hook.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.02
